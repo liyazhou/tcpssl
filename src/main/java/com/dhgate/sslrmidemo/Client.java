@@ -15,7 +15,8 @@ public class Client {
 
             setSettings();
 
-            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 2020, new SslRMIClientSocketFactory());
+//            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 2020, new SslRMIClientSocketFactory());
+            Registry registry = LocateRegistry.getRegistry("192.168.112.245", 2020, new SslRMIClientSocketFactory());
 //            Registry registry = LocateRegistry.getRegistry("127.0.0.1",2020);
 
             Hello hello = (Hello) registry.lookup("com.dhgate.rmidemo.Hello");

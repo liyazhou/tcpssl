@@ -22,7 +22,8 @@ public class Server {
 //            LocateRegistry.createRegistry(2020);
             System.out.println("RMI registry running on port " + 2020);
 
-            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 2020, new SslRMIClientSocketFactory());
+//            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 2020, new SslRMIClientSocketFactory());
+            Registry registry = LocateRegistry.getRegistry("192.168.112.245", 2020, new SslRMIClientSocketFactory());
 //            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 2020);
 
             registry.bind("com.dhgate.rmidemo.Hello",  hello);
