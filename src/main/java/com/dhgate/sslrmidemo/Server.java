@@ -41,16 +41,16 @@ public class Server {
 
         System.setProperty("javax.net.ssl.debug", "all");
 
-//        System.setProperty("javax.net.ssl.keyStore", "/Users/liyazhou/workspace/tcpssl/certificate/server.jks");
-//        System.setProperty("javax.net.ssl.keyStorePassword", pass);
-        System.setProperty("javax.net.ssl.trustStore", "/Users/liyazhou/workspace/tcpssl/certificate/serverTrust.jks");
-        System.setProperty("javax.net.ssl.trustStorePassword", pass);
+        System.setProperty("javax.net.ssl.keyStore", "/Users/liyazhou/workspace/tcpssl/certificate/server.jks");
+        System.setProperty("javax.net.ssl.keyStorePassword", pass);
+//        System.setProperty("javax.net.ssl.trustStore", "/Users/liyazhou/workspace/tcpssl/certificate/serverTrust.jks");
+//        System.setProperty("javax.net.ssl.trustStorePassword", pass);
 
 //
-        System.setProperty("javax.net.ssl.keyStore", "/Users/liyazhou/workspace/tcpssl/certificate/client.jks");
-        System.setProperty("javax.net.ssl.keyStorePassword", pass);
-//        System.setProperty("javax.net.ssl.trustStore", "/Users/liyazhou/workspace/tcpssl/certificate/clientTrust.jks");
-//        System.setProperty("javax.net.ssl.trustStorePassword", pass);
+//        System.setProperty("javax.net.ssl.keyStore", "/Users/liyazhou/workspace/tcpssl/certificate/client.jks");
+//        System.setProperty("javax.net.ssl.keyStorePassword", pass);
+        System.setProperty("javax.net.ssl.trustStore", "/Users/liyazhou/workspace/tcpssl/certificate/clientTrust.jks");
+        System.setProperty("javax.net.ssl.trustStorePassword", pass);
 
 
 
